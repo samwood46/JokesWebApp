@@ -1,0 +1,11 @@
+@JokesWebApp_HostAddress = http://localhost:5006
+
+GET {{JokesWebApp_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{JokesWebApp_HostAddress}}/todos/1
+Accept: application/json
+
+###
